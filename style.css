@@ -5,8 +5,8 @@
 
 body {
   font: 100%/1.5 system-ui;
-  max-width: 100ch;
-  margin-inline: max(1em, (100% - 100ch) / 2);
+  max-width: 80ch;
+  margin-inline: max(1em, (100% - 80ch) / 2);
 }
 
 h1 {

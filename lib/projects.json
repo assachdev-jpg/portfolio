@@ -1,0 +1,79 @@
+[
+  {
+    "title": "Gender Gap: Persuasive vs. Deceptive Charts",
+    "year": "2026",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "DSC 106 Project 2. Two charts arguing opposite sides of whether women are closing the gender gap, built from the same World Bank data.",
+    "url": "https://assachdev-jpg.github.io/portfolio/project2/"
+  },
+  {
+    "title": "Same Product, Higher Price at Whole Foods",
+    "year": "2026",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "DSC 106 Project 1. Matched identical products across Walmart and Whole Foods to show a median 35% markup with quality held constant."
+  },
+  {
+    "title": "SDG 8 Global Labor Market Dashboard",
+    "year": "2026",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Interactive dashboard on whether global economic growth is turning into decent work, built from 7 World Bank datasets.",
+    "url": "https://assachdev-jpg.github.io/sdg8-labor-dashboard"
+  },
+  {
+    "title": "Pacific Islands Climate Impact Dashboard",
+    "year": "2026",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Dashboard showing the gap between low CO2 emissions and high disaster impact across 12 Pacific Island nations.",
+    "url": "https://assachdev-jpg.github.io/pacific-climate-dashboard"
+  },
+  {
+    "title": "Food.com Five Star Recipe Prediction",
+    "year": "2026",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "DSC 80 project. Logistic regression model predicting five-star ratings across 83,000+ recipes with a fairness analysis.",
+    "url": "https://ag-see.github.io/Food-dot-com-Ratings-Prediction/"
+  },
+  {
+    "title": "Tennis Performance Analytics Dashboard",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Analytics dashboard breaking down 29 Davis Cup matches from 2018 to 2025, covering serve efficiency and break points.",
+    "url": "https://aarmansachdev.github.io/davis-cup-tennis-analytics/"
+  },
+  {
+    "title": "NBA MVP Prediction",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "COGS 108 group project predicting NBA MVP voting results from regular season player stats."
+  },
+  {
+    "title": "Lorem ipsum dolor sit",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, voluptatem fugiat. Nisi, dolorum eligendi."
+  },
+  {
+    "title": "Consectetur adipisicing elit",
+    "year": "2024",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, voluptatem fugiat. Nisi, dolorum eligendi."
+  },
+  {
+    "title": "Voluptatem fugiat nisi",
+    "year": "2024",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, voluptatem fugiat. Nisi, dolorum eligendi."
+  },
+  {
+    "title": "Dolorum eligendi quaerat",
+    "year": "2023",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, voluptatem fugiat. Nisi, dolorum eligendi."
+  },
+  {
+    "title": "Accusamus tempora ratione",
+    "year": "2023",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, voluptatem fugiat. Nisi, dolorum eligendi."
+  }
+]

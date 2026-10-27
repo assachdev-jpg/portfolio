@@ -1,13 +1,21 @@
 :root {
   --color-accent: oklch(55% 0.13 160);
-  accent-color: var(--color-accent);
   color-scheme: light dark;
+}
+
+html {
+  accent-color: var(--color-accent);
 }
 
 body {
   font: 100%/1.5 system-ui;
   max-width: 80ch;
-  margin-inline: max(1em, (100% - 80ch) / 2);
+  margin-inline: auto;
+  padding: 1em;
+}
+
+img {
+  max-width: 100%;
 }
 
 h1 {
@@ -45,10 +53,6 @@ nav a:hover {
   background-color: color-mix(in oklch, var(--color-accent), canvas 85%);
 }
 
-input, textarea, button, select {
-  font: inherit;
-}
-
 form {
   display: grid;
   grid-template-columns: auto 1fr;
@@ -59,6 +63,12 @@ form label {
   display: grid;
   grid-template-columns: subgrid;
   grid-column: 1 / -1;
+}
+
+form input,
+form textarea,
+form button {
+  font: inherit;
 }
 
 form button {
@@ -82,7 +92,7 @@ form button {
 }
 
 section {
-  margin-block: 2.5em;
+  margin-block: 2em;
 }
 
 section h2 {
@@ -90,31 +100,15 @@ section h2 {
   padding-bottom: 0.25em;
 }
 
-section article {
-  margin-block: 1.25em;
-}
-
-section article h3 {
-  margin-bottom: 0.25em;
-}
-
-section article p {
-  margin-block: 0.25em;
-}
-
-section time {
-  color: oklch(50% 0 0);
-}
-
-section a {
-  color: var(--color-accent);
-}
-
 .color-scheme {
   position: absolute;
   top: 1rem;
   right: 1rem;
   font-size: 80%;
+}
+
+.color-scheme select {
+  font: inherit;
 }
 
 #profile-stats dl {
@@ -135,4 +129,75 @@ section a {
   margin: 0;
   font-size: 200%;
   font-weight: bold;
+}
+
+.project-year {
+  color: gray;
+  font-family: Baskerville, serif;
+  font-variant-numeric: oldstyle-nums;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+
+#projects-pie-plot {
+  max-width: 20em;
+  margin-block: 2em;
+  overflow: visible;
+}
+
+#projects-pie-plot path {
+  transition: 300ms;
+  cursor: pointer;
+}
+
+#projects-pie-plot:has(path:hover) path:not(:hover) {
+  opacity: 0.5;
+}
+
+.selected {
+  --color: oklch(60% 45% 0) !important;
+
+  &:is(path) {
+    fill: var(--color);
+  }
+}
+
+.legend {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9em, 1fr));
+  gap: 1em;
+  list-style: none;
+  margin: 0;
+  padding: 1em;
+  border: 1px solid oklch(80% 0 0);
+  border-radius: 0.5em;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  cursor: pointer;
+}
+
+.swatch {
+  display: inline-block;
+  width: 1em;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  background: var(--color);
+}
+
+.searchBar {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.5em;
+  margin-block: 1em;
+  font: inherit;
 }

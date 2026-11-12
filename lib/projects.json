@@ -1,5 +1,12 @@
 [
   {
+    "title": "Bikewatching",
+    "year": "2026",
+    "image": "https://assachdev-jpg.github.io/portfolio/images/bikewatching.png",
+    "description": "Interactive Mapbox and D3 map of Boston-area Bluebikes traffic in March 2024, with circles sized by trips and colored by arrivals vs departures, plus a time-of-day filter.",
+    "url": "https://assachdev-jpg.github.io/bikewatching/"
+  },
+  {
     "title": "Gender Gap: Persuasive vs. Deceptive Charts",
     "year": "2026",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",

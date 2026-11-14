@@ -308,3 +308,97 @@ circle.selected {
   object-fit: cover;
   border-radius: 0.3em;
 }
+circle {
+  @starting-style {
+    r: 0;
+  }
+}
+
+.time-filter {
+  display: flex;
+  align-items: baseline;
+  gap: 1em;
+  margin-block: 1em;
+}
+
+.time-filter label {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5em;
+  flex: 1;
+}
+
+.time-filter input {
+  flex: 1;
+}
+
+.time-filter time {
+  margin-left: auto;
+  color: oklch(55% 0 0);
+}
+
+#scrolly-1 {
+  position: relative;
+  display: flex;
+  gap: 1rem;
+
+  > * {
+    flex: 1;
+  }
+}
+
+#scatter-story {
+  position: relative;
+}
+
+#scatter-plot {
+  position: sticky;
+  top: 0;
+  left: 0;
+  bottom: auto;
+  height: 50vh;
+}
+
+.step {
+  padding-bottom: 40vh;
+}
+
+#files {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+
+  > div {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: subgrid;
+  }
+
+  dt {
+    grid-column: 1;
+  }
+
+  dt small {
+    display: block;
+    font-size: 75%;
+    opacity: 0.7;
+  }
+
+  dd {
+    grid-column: 2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    align-content: start;
+    gap: 0.15em;
+    padding-top: 0.6em;
+    margin-left: 0;
+  }
+}
+
+.loc {
+  display: flex;
+  width: 0.5em;
+  aspect-ratio: 1;
+  background: var(--color);
+  border-radius: 50%;
+}
